@@ -1,0 +1,144 @@
+body{
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: helvetica;
+}
+header{
+  display: inline-flex;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+
+}
+.container{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px;
+  border-bottom: 1px solid grey;
+  align-items: center;
+}
+nav a{
+  display: inline-flex;
+  justify-content: space-around;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin-right: 15px;
+}
+.container img{
+  height: 50px;
+}
+.content{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+  border: 3px solid blue;
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.II{
+  display: flex;
+  background-color: black;
+  color: seashell;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission{
+  display: block;
+  text-align: center;
+  color: seashell;
+}
+.pics{
+  display: flex;
+justify-content: center;
+}
+.next{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;;
+  flex-wrap: wrap;
+  color: seashell;
+}
+.pic{
+  display: flex;
+  height:200px;
+  width: 300px;
+  justify-content: center;
+  padding: 10px;
+}
+.text{
+  display: block;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.locations{
+  display:block;
+  height: 500px;
+  width: 1200px;
+  border: 2px solid blue;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+.locations h1{
+  display: block;
+  color: seashell;
+  opacity: .9;
+}
+.stores{
+  border: 2px solid white;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  justify-content: space-around;;
+  text-align: center;
+  margin: 0px 40px;
+  align-items: space-around;
+}
+.stores h3{
+  color:white;
+}
+.stores p{
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+.center{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.store-container{
+  display: flex;
+  justify-content: center;
+}
+.end{
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+.copyright{
+  text-align: left;
+  color: grey;
+}
