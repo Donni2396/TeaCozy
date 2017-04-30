@@ -37,7 +37,6 @@ nav a{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   justify-content: center;
   align-items: center;
-  border: 3px solid blue;
   padding-top: 69px;
   height: 700px;
   width: 1200px;
@@ -106,7 +105,6 @@ justify-content: center;
   opacity: .9;
 }
 .stores{
-  border: 2px solid white;
   height: 300px;
   width: 300px;
   background-color: black;
